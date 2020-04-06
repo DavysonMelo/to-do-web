@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #E5E5E5;
+  font-family: Montserrat Alternates;
+  -webkit-font-smoothing: antialiased;
+}
+
+input, button {
+  font-family: Montserrat Alternates;
+}
+
+button {
+  cursor: pointer;
+}
+
+form input {
+  width: 450px;
+  height: 40px;
+  background-color: #E5E5E5;
+  border-width: 0 0 1px;
+  border-color: #138A72;
+  margin-bottom: 35px;
+}
+
+::placeholder {
+  color: #138A72;
+}
+
+form button {
+  height: 57px;
+  background: #138A72;
+  border-radius: 100px;
+  color: #FFF;
+  transition: filter .2s;
+}
+
+form button:hover {
+  filter: brightness(90%);
+}

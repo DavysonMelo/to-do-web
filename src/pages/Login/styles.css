@@ -1,0 +1,28 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.container form a {
+  color: #138A72;
+  margin-bottom: 38px;
+  font-size: 14px;
+  transition: opacity .2s;
+}
+
+.container form a:hover {
+  opacity: 0.8;
+}
+
+
+
